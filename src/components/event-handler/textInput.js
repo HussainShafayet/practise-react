@@ -7,19 +7,25 @@ export default class EventHandler extends Component {
         this.state = {
             changedValue: ''
         }
+        this.inputValueChanged= this.inputValueChanged.bind(this);
     }
 
-    inputValueChanged =(e)=>{
-        // this.setState({
-        //     changedValue: e.target.value
-        // })
+    // inputValueChanged =(e)=>{
+    //     // this.setState({
+    //     //     changedValue: e.target.value
+    //     // })
+    //     // this.setState({
+    //     //     changedValue: e.target.value
+    //     // },()=>{
+    //     //     console.log(this.state.changedValue);
+    //     // })
+    // }
+    inputValueChanged(e){
         this.setState({
-            changedValue: e.target.value
-        },()=>{
-            console.log(this.state.changedValue);
+            changedValue:e.target.value
         })
     }
-    
+
     render() {
         return (
             <div>
