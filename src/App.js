@@ -7,6 +7,7 @@ import Data from './Data.json'
 import Arrow from './components/Arrow_function'
 import Counters from './components/counters'
 import Test from './components/test'
+import Index from './components/conditional-template/index';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
       <div>{items}</div>
       <div><Arrow/></div> */}
       <div>
-        <Test />
+        <Index />
       </div>
       
     </div>
