@@ -8,6 +8,7 @@ import Arrow from './components/Arrow_function'
 import Counters from './components/counters'
 import Test from './components/test'
 import Index from './components/conditional-template/index';
+import EventHandler from './components/event-handler/textInput';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
       <div>{items}</div>
       <div><Arrow/></div> */}
       <div>
-        <Index />
+        <EventHandler />
       </div>
       
     </div>
