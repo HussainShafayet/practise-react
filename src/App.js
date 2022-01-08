@@ -10,6 +10,7 @@ import Test from './components/test'
 import Index from './components/conditional-template/index';
 import EventHandler from './components/event-handler/textInput';
 import EventHooks from './components/EventsHooks';
+import RegistrationForm from './components/Form/RegistrationForm';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <div>
         <EventHandler />
         <EventHooks />
+        <RegistrationForm />
       </div>
       
     </div>
