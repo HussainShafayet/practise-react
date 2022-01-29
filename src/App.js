@@ -12,6 +12,8 @@ import EventHandler from './components/event-handler/textInput';
 import EventHooks from './components/EventsHooks';
 import RegistrationForm from './components/Form/RegistrationForm';
 import Parent from './components/dataPass/Parent';
+import Nav from './components/navBar/nav';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function App() {
@@ -28,12 +30,13 @@ function App() {
       <div><Class_practise name="class-props" /></div>
       <div>{items}</div>
       <div><Arrow/></div> */}
-      <div>
+      {/*
         <EventHandler />
         <EventHooks />
         <RegistrationForm />
         <Parent />
-      </div>
+        */}
+        <Nav />
       
     </div>
   );
