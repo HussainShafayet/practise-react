@@ -11,6 +11,7 @@ import Index from './components/conditional-template/index';
 import EventHandler from './components/event-handler/textInput';
 import EventHooks from './components/EventsHooks';
 import RegistrationForm from './components/Form/RegistrationForm';
+import Parent from './components/dataPass/Parent';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <EventHandler />
         <EventHooks />
         <RegistrationForm />
+        <Parent />
       </div>
       
     </div>
