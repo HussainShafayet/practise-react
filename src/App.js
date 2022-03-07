@@ -13,7 +13,10 @@ import EventHooks from './components/EventsHooks';
 import RegistrationForm from './components/Form/RegistrationForm';
 import Parent from './components/dataPass/Parent';
 import Nav from './components/navBar/nav';
+import Dashboard from './components/hr/dashboard';
+import Employees from './components/hr/employees';
 import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
 function App() {
@@ -36,8 +39,13 @@ function App() {
         <RegistrationForm />
         <Parent />
         */}
+      <Router>
         <Nav />
-      
+        <Routes>
+          <Route path="/" element={ <Dashboard />} />
+          <Route path="/employees" element={<Employees />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
