@@ -9,10 +9,11 @@ export default class Counter extends Component {
             (prevState) => ({count: prevState.count + 1}))
     };
     render() {
-        const { render } = this.props
-        const { count } = this.state
+        const { children } = this.props;
+        const { count } = this.state;
         return (
-        render(count, this.incrementCount)
+            // 'hello'
+        children(count, this.incrementCount)
         )
     }
 }

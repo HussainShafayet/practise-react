@@ -5,7 +5,7 @@ import Class_practise from './components/Practise_class'
 import Practise_function from './components/Practise-function'
 import Data from './Data.json'
 import Arrow from './components/Arrow_function'
-import Counters from './components/counters'
+// import Counters from './components/counters'
 import Test from './components/test'
 import Index from './components/conditional-template/index';
 import EventHandler from './components/event-handler/textInput';

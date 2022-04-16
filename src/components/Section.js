@@ -3,7 +3,8 @@ import Content from "./Content"
 export default function Section() {
   return (
     <div>
-        <Content />
+      <span>this is Section</span>
+      <Content />
     </div>
 
   )
