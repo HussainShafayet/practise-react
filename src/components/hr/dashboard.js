@@ -4,6 +4,8 @@ import Section from '../Section';
 import ThemeContext from '../../contexts/themeContext';
 import TodoClass from '../hook/TodoClass';
 import Todo from '../hook/Todo';
+import UseEffectClass from '../hook/UseEffectClass';
+import UseEffectFunc from '../hook/UseEffectFunc';
 
 
 export default class Dashboard extends Component {
@@ -26,6 +28,8 @@ export default class Dashboard extends Component {
         </ThemeContext.Provider> */}
         <TodoClass />
         <Todo />
+        <UseEffectClass />
+        <UseEffectFunc />
       </div>
     )
   }
